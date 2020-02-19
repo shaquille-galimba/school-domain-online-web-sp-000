@@ -13,7 +13,7 @@ class School
   end
 
   def add_student(student, grade)
-    self.roster[grade] = []
-    self.roster[grade] << student
+    student_arr = self.roster[grade] = []
+    student_arr << student
   end
 end
