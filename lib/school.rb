@@ -8,7 +8,7 @@ class School
     @name = name
   end
 
-  def roster
+  def roster(hash)
     hash = {}
   end
   binding.pry
