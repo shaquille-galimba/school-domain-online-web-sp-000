@@ -18,4 +18,5 @@ class School
   # end
 end
 
+school = School.new("Perps")
 school.roster
