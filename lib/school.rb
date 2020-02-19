@@ -19,5 +19,5 @@ class School
 end
 
 school = School.new("Perps")
-add_student("Shaq", 3)
+school.add_student("Shaq", 3)
 puts school.roster
