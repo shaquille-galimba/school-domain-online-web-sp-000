@@ -18,6 +18,3 @@ class School
   end
 end
 
-school = School.new("Perps")
-school.add_student("Shaq", 3)
-puts school.roster
