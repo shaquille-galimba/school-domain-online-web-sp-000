@@ -19,4 +19,4 @@ class School
 end
 
 school = School.new("Perps")
-school.roster
+puts school.roster
