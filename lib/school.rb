@@ -11,7 +11,7 @@ class School
   def roster(hash)
     hash = {}
   end
-  binding.pry
+
   def add_student(name, grade)
     hash[grade] = []
     hash[grade] << name
