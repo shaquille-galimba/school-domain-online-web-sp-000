@@ -7,11 +7,11 @@ class School
   end
 
   def roster
-    roster = {}
+    hash = {}
   end
 
   def add_student(name, grade)
-    roster[grade] = []
-    roster[grade] << name
+    hash[grade] = []
+    hash[grade] << name
   end
 end
