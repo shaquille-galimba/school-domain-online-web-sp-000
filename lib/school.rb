@@ -8,7 +8,7 @@ class School
     @name = name
   end
 
-  def roster(hash)
+  def roster
     hash = {}
   end
 
