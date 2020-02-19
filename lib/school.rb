@@ -13,7 +13,7 @@ class School
   end
 
   def add_student(student, grade)
-    self.roster[grade] = []
+    self.roster[grade] = [] unless self.roster.has_key?(grade)
     self.roster[grade] << student
   end
 end
