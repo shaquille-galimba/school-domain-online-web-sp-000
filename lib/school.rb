@@ -1,4 +1,6 @@
 # code here!
+require 'pry'
+
 class School
   attr_reader :name
 
@@ -9,7 +11,7 @@ class School
   def roster
     hash = {}
   end
-
+  binding.pry
   def add_student(name, grade)
     hash[grade] = []
     hash[grade] << name
