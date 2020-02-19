@@ -19,4 +19,4 @@ class School
 end
 
 school = School.new("Perps")
-puts school.roster
+add_student("Shaq", 3)
